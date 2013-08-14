@@ -9,4 +9,6 @@ SNS::Application.routes.draw do
   resources :users do
     resources :diaries
   end
+
+  resource :home
 end
